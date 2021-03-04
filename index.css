@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  margin: 0px auto;
+}
+
+#photo {
+  line-height: 0;
+  column-count: 4;
+  column-gap: 20px;
+ 
+}
+
+#photo img {
+  height: auto;
+  width: 300px;
+  padding: 5px 0;
+}
+
+@media (max-width: 2000px) {
+  #photo {
+    column-count: 5;
+  }
+}
+
+@media (max-width: 1400px) {
+  #photo {
+    column-count: 4;
+  }
+}
+
+@media (max-width: 1200px) {
+  #photo {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 800px) {
+  #photo {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  #photo {
+    column-count: 1;
+  }
+}
