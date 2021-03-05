@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.container {
+  padding: 25px;
+}
+
 section {
   margin: 0px auto;
 }
